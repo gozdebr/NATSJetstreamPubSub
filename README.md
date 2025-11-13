@@ -1,8 +1,9 @@
 # JetstreamNATS
 
 Proje NetBeans üzerinden oluşturuldu ve NetBeans ile çalıştırılması önerilir. 
-NetBeans'de kullanılan konfigürasyon dosyaları eklenmiştir.
+NetBeans'de k[]([[[url](url)](url)](url))ullanılan konfigürasyon dosyaları eklenmiştir.
 Proje'de kullanılan Java kütüphaneleri libs altına eklenmiştir.
+
 
 # Proje Requirements and Testing
 
