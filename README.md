@@ -9,7 +9,7 @@ Proje'de kullanılan Java kütüphaneleri libs altına eklenmiştir.
 
 Projenin doğru çalışması için NATS server'ı JetStream ile ayağa kaldırılmalıdır.
 Uyarı: NATS Server ortak alanda \\llfs\SFS\HSSD\FSM\FSETB\01-ORTAK\_Development'da bulunmaktadır. (nats-server-v2.12.1-windows-amd64)
-
+```
 **C:\Users\gozde.berberoglu\Desktop\nats-server-v2.12.1-windows-amd64>nats-server -jetstream**
 [15544] 2025/11/13 11:09:10.850820 [←[32mINF←[0m] Starting nats-server
 [15544] 2025/11/13 11:09:10.850820 [←[32mINF←[0m]   Version:  2.12.1
@@ -39,13 +39,14 @@ Uyarı: NATS Server ortak alanda \\llfs\SFS\HSSD\FSM\FSETB\01-ORTAK\_Development
 [15544] 2025/11/13 11:09:10.856016 [←[32mINF←[0m]   Restored 0 messages for stream '$G > ORDERS' in 1ms
 [15544] 2025/11/13 11:09:10.856016 [←[32mINF←[0m]   Recovering 1 consumers for stream - '$G > LOGGER'
 [15544] 2025/11/13 11:09:10.857617 [←[31mFTL←[0m] Error listening on port: 0.0.0.0:4222, "listen tcp 0.0.0.0:4222: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."
-
+```
 Kodu çalıştırdıktan sonra NATS CLI kurulumu yaparak consumer durumu kontrol edilebilir.
 Uyarı: NATS CLI ortak alanda \\llfs\SFS\HSSD\FSM\FSETB\01-ORTAK\_Development'da bulunmaktadır. bulunmaktadır. (nats-0.3.0-windows-amd64
 
 
 **- İhtiyaç olabilecek komutlar;**
 
+```
 **C:\Users\gozde.berberoglu\Desktop\nats-0.3.0-windows-amd64>nats consumer report**
 ? Select a Stream LOGGER
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -125,6 +126,8 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 - [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
 - [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+
+```
 
 ```
 cd existing_repo
